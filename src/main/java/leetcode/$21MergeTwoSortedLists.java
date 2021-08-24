@@ -3,7 +3,7 @@ package leetcode;
 public class $21MergeTwoSortedLists {
 
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        ListNode ret = null;
+        ListNode ret;
         ListNode left = l1;
         ListNode right = l2;
         ListNode newN;
